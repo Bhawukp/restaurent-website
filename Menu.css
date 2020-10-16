@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    box-sizing : border-box;
+
+}
+body{
+    font-family: "Roboto" ,sans-serif;
+    margin: 0;
+
+}
+header{
+    background-image: url("https://github.com/florinpop17/10websites-design-to-html-css/blob/master/restaurant-design/bg.png?raw=true");
+    background-size: cover;
+    min-height: 100vh;
+
+
+}
+.container{
+ width: 1000px;
+ max-width: 100%;
+ padding: 1rem;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+
+}
+.pre-nav{
+display: flex;
+justify-content: space-between;
+font-size: 1.7rem;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    color: #026E78;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    flex: 1;
+
+
+}
+nav li a{
+    background-color:#2099A4;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+
+}
+nav a.active{
+background-color: white;
+color: #026E78;
+font-weight: bold;
+}
+nav a.hightlight{
+    background-color: #033c44;
+    color: white;
+
+}
+nav a:hover{
+    opacity: 0.8;
+
+}
+.content{
+    background:  #05b2c286;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+}
+table{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: dotted;
+    width: 500px;
+    font-style: oblique;
+}
+th{
+    color:black;
+    border-bottom: dotted black;
+}
+td{
+    text-align: center;
+    border-bottom:solid ;
+    border-right: dotted;
+}
+.content h4{
+    align-items: center;
+    text-align: center;
+    background-color:white;
+    color:teal;
+    width:  500px ;
+    padding: 0.75rem;
+    margin-right: 40px;
+    justify-content: center;
+}
+.content h6{
+    text-align: center;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(17, 58, 58);
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    cursor: pointer;
+    
+  }
+  .dots{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 620px;
+    padding-top:0.8rem ;
+    color:white;
+    cursor: pointer;
+  }
+  .teal-link{
+    color: white;
+    background-color: teal;
+
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.teal-link2{
+    color: white;
+    background-color: teal;
+
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1200px;
+}
